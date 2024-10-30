@@ -1,0 +1,120 @@
+{
+  "ticket_info": {
+    "ticket_id": "ticket_227_3183",
+    "namespace": "flight_bookings",
+    "pnr": "HZAVJJ",
+    "class": "Economy",
+    "user_id": 227,
+    "flight_route": {
+      "source_airport": {
+        "name": "Cape Town International Airport",
+        "iata_code": "CPT",
+        "city": "Cape Town",
+        "country": "South Africa"
+      },
+      "destination_airport": {
+        "name": "Indira Gandhi International Airport",
+        "iata_code": "DEL",
+        "city": "New Delhi",
+        "country": "India"
+      },
+      "intermediate_airports": [
+        {
+          "name": "Addis Ababa Bole International Airport",
+          "iata_code": "ADD",
+          "city": "Addis Ababa",
+          "country": "Ethiopia"
+        }
+      ],
+      "layover_duration": "55 minutes"
+    },
+    "flight_schedule": {
+      "departure": {
+        "date": "2024-07-11",
+        "time": "14:35:00 UTC",
+        "full_datetime": "2024-07-11T14:35:00.000Z"
+      },
+      "arrival": {
+        "date": "2024-07-12",
+        "time": "08:10:00 UTC",
+        "full_datetime": "2024-07-12T08:10:00.000Z"
+      }
+    },
+    "flight_segments": [
+      {
+        "segment_number": 1,
+        "flight_number": "ET846",
+        "departure": {
+          "airport": "Cape Town International Airport",
+          "iata_code": "CPT",
+          "date": "2024-07-11",
+          "time": "14:35:00 UTC",
+          "full_datetime": "2024-07-11T14:35:00.000Z"
+        },
+        "arrival": {
+          "airport": "Addis Ababa Bole International Airport",
+          "iata_code": "ADD",
+          "date": "2024-07-11",
+          "time": "22:00:00 UTC",
+          "full_datetime": "2024-07-11T22:00:00.000Z"
+        }
+      },
+      {
+        "segment_number": 2,
+        "flight_number": "ET686",
+        "departure": {
+          "airport": "Addis Ababa Bole International Airport",
+          "iata_code": "ADD",
+          "date": "2024-07-11",
+          "time": "22:55:00 UTC",
+          "full_datetime": "2024-07-11T22:55:00.000Z"
+        },
+        "arrival": {
+          "airport": "Indira Gandhi International Airport",
+          "iata_code": "DEL",
+          "date": "2024-07-12",
+          "time": "08:10:00 UTC",
+          "full_datetime": "2024-07-12T08:10:00.000Z"
+        }
+      }
+    ],
+    "passenger_details": {
+      "total_passenger_count": 3,
+      "passengers": [
+        {
+          "full_name": "Surendra Singh",
+          "seat_number": "21A",
+          "baggage": {
+            "cabin": "7kg",
+            "check_in": "23kg"
+          }
+        },
+        {
+          "full_name": "Narinder Kaur",
+          "seat_number": "21B",
+          "baggage": {
+            "cabin": "7kg",
+            "check_in": "23kg"
+          }
+        },
+        {
+          "full_name": "Samik Singh",
+          "seat_number": "21C",
+          "baggage": {
+            "cabin": "7kg",
+            "check_in": "23kg"
+          }
+        }
+      ]
+    },
+    "baggage_summary": {
+      "total_cabin_baggage": "21kg",
+      "total_check_in_baggage": "69kg"
+    },
+    "embedded_text_descriptions": {
+      "route_description": "Cape Town International Airport (CPT) to Indira Gandhi International Airport (DEL) via Addis Ababa Bole International Airport (ADD)",
+      "flight_details": "Flight numbers ET846 and ET686, Economy class, from CPT to DEL on July 11, 2024",
+      "passenger_summary": "Passengers: Surendra Singh, Narinder Kaur, Samik Singh, traveling with 7kg cabin baggage and 23kg check-in baggage each."
+    }
+  }
+}

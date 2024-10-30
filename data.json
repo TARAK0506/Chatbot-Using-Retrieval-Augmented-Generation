@@ -1,0 +1,127 @@
+{
+  "id": "ticket_227_3183",
+  "namespace": "flight_bookings",
+  "user": {
+    "id": 227,
+    "flights": [
+      {
+        "ticket_id": 3183,
+        "pnr": "HZAVJJ",
+        "class": "ECONOMY",
+        "source": "Cape Town International Airport (CPT)",
+        "destination": "Indira Gandhi International Airport (DEL)",
+        "departure_date": {
+          "original": "2024-07-11T14:35:00.000Z",
+          "date": "2024-07-11",
+          "time": "14:35:00",
+          "timezone": "UTC"
+        },
+        "arrival_date": {
+          "original": "2024-07-12T08:10:00.000Z",
+          "date": "2024-07-12",
+          "time": "08:10:00",
+          "timezone": "UTC"
+        },
+        "layover_duration": "55m",
+        "total_segments": 2,
+        "flight_numbers": ["ET846", "ET686"],
+        "passenger_count": 3,
+        "passenger_names": ["surendra singh", "narinder kaur", "samik singh"],
+        "total_cabin_baggage": "21kg",
+        "total_check_in_baggage": "69kg",
+        "intermediate_airports": ["ADD"],
+        "segments": [
+          {
+            "flight_number": "ET846",
+            "departure": {
+              "airport": "Cape Town International Airport",
+              "iata": "CPT",
+              "original": "2024-07-11T14:35:00.000Z",
+              "date": "2024-07-11",
+              "time": "14:35:00",
+              "timezone": "UTC"
+            },
+            "arrival": {
+              "airport": "Addis Ababa Bole International Airport",
+              "iata": "ADD",
+              "original": "2024-07-11T22:00:00.000Z",
+              "date": "2024-07-11",
+              "time": "22:00:00",
+              "timezone": "UTC"
+            },
+            "passengers": [
+              {
+                "first_name": "surendra",
+                "last_name": "singh",
+                "seat_number": "21a",
+                "cabin_baggage": "7kg",
+                "check_in_baggage": "23kg"
+              },
+              {
+                "first_name": "narinder",
+                "last_name": "kaur",
+                "seat_number": "21b",
+                "cabin_baggage": "7kg",
+                "check_in_baggage": "23kg"
+              },
+              {
+                "first_name": "samik",
+                "last_name": "singh",
+                "seat_number": "21c",
+                "cabin_baggage": "7kg",
+                "check_in_baggage": "23kg"
+              }
+            ]
+          },
+          {
+            "flight_number": "ET686",
+            "departure": {
+              "airport": "Addis Ababa Bole International Airport",
+              "iata": "ADD",
+              "original": "2024-07-11T22:55:00.000Z",
+              "date": "2024-07-11",
+              "time": "22:55:00",
+              "timezone": "UTC"
+            },
+            "arrival": {
+              "airport": "Indira Gandhi International Airport",
+              "iata": "DEL",
+              "original": "2024-07-12T08:10:00.000Z",
+              "date": "2024-07-12",
+              "time": "08:10:00",
+              "timezone": "UTC"
+            },
+            "passengers": [
+              {
+                "first_name": "surendra",
+                "last_name": "singh",
+                "seat_number": "21a",
+                "cabin_baggage": "7kg",
+                "check_in_baggage": "23kg"
+              },
+              {
+                "first_name": "narinder",
+                "last_name": "kaur",
+                "seat_number": "21b",
+                "cabin_baggage": "7kg",
+                "check_in_baggage": "23kg"
+              },
+              {
+                "first_name": "samik",
+                "last_name": "singh",
+                "seat_number": "21c",
+                "cabin_baggage": "7kg",
+                "check_in_baggage": "23kg"
+              }
+            ]
+          }
+        ],
+        "embedding_texts": {
+          "route_embedding": "Cape Town International Airport (CPT) to Indira Gandhi International Airport (DEL) via ADD",
+          "flight_details_embedding": "ET846 ET686 ECONOMY flight from CPT to DEL on July 11, 2024",
+          "passenger_info_embedding": "surendra singh, narinder kaur, samik singh traveling together with 7kg cabin baggage and 23kg check-in baggage each"
+        }
+      }
+    ]
+  }
+}
