@@ -1,4 +1,4 @@
-##  RAG Applications with Pinecone Serverless, Open Source LLMs and Embedding's, Langchain and Python
+##  RAG Application with Pinecone Serverless, Open Source LLMs and Embedding's, Langchain and Python.
 
 ### Project Overview
 
@@ -12,15 +12,17 @@ Open Source LLMs and embeddings for language understanding and generation.
 
 ### Technologies used:
 
-1. Pinecone Serverless Vector Database
+1. Groq Inference Engine
 
-2. Hugging Face Transformers
+2. Vector Database - Pinecone Serverless
 
-3. Open Source LLMs
+3. Embeddings - Hugging Face Transformers
 
-4. Langchain Framework
+4. Open Source LLMs - Llama3 & Mistral
 
-5. Python
+5. Langchain Framework
+
+6. Python
  
 
 
@@ -29,8 +31,8 @@ Open Source LLMs and embeddings for language understanding and generation.
 1. **Clone the repository :**
 
    ```bash
-    git clone https://github.com/TARAK0506/RAG-Applications-Pinecone-Langchain.git
-    cd RAG-Applications-Pinecone-Langchain
+    git clone https://github.com/TARAK0506/Chatbot-Using-Retrieval-Augmented-Generation.git
+    cd RAG-Chatbot Using Langchain.
    ```
 2. **Install dependencies** :
  Make sure Python is installed, then install the required packages:
@@ -40,39 +42,39 @@ Open Source LLMs and embeddings for language understanding and generation.
    ```
 3. **Set up Environment Variables** :
    -  **Create an `.env` file** in the root directory.
-   -  **Add necessary API keys** for Groq, Pinecone and Hugging Face in the following format:
+   -  **Add necessary API keys** for Groq Inference Engine, Pinecone and Hugging Face in the following format:
 
 
-   ```bash
-   GROQ_API_KEY = your_pinecone_api_key
-   PINECONE_API_KEY = your_pinecone_api_key
-   HUGGINGFACE_API_KEY = your_huggingface_api_key
-   ```
+      ```bash
+      GROQ_API_KEY = your_pinecone_api_key
+      PINECONE_API_KEY = your_pinecone_api_key
+      HUGGINGFACE_API_KEY = your_huggingface_api_key
+      ```
 
 ## Examples
 
 ### Sample Interaction
 
 1. **Seat Details**
-   - **User**: "What’s my seat for the first flight and the passenger details?"
-   - **Bot**: 
-     - **Passenger 0**: 
+   - **User** : "What’s my seat for the first flight and the passenger details?"
+   - **Bot** : 
+     - **Passenger 1** : 
        - Full name: Surendra Singh 
        - Seat number: 21A
        - Cabin baggage allowance: 7kg
        - Check-in baggage allowance: 23kg
 
 2. **Layover Information**
-   - **User**: "Can you tell me about the layover time for my journey?"
-   - **Bot**: "According to the ticket information, the layover duration for your flight is 55 minutes."
+   - **User** : "Can you tell me about the layover time for my journey?"
+   - **Bot** : "According to the ticket information, the layover duration for your flight is 55 minutes."
 
 3. **Arrival Time**
-   - **User**: "What time do I arrive in Delhi?"
-   - **Bot**: "Your arrival at Indira Gandhi International Airport (DEL) in New Delhi is scheduled for 2024-07-12 at 08:10 AM."
+   - **User** : "What time do I arrive in Delhi?"
+   - **Bot** : "Your arrival at Indira Gandhi International Airport (DEL) in New Delhi is scheduled for 2024-07-12 at 08:10 AM."
 
 4. **Baggage Allowance**
-   - **User**: "Do I have checked baggage?"
-   - **Bot**: "Yes, each passenger has a checked baggage allowance of 23kg for each flight segment."
+   - **User** : "Do I have checked baggage?"
+   - **Bot** : "Yes, each passenger has a checked baggage allowance of 23kg for each flight segment."
 
 
 
